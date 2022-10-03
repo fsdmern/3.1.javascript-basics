@@ -1,5 +1,10 @@
+//Browser Console
 console.log('I am Java Script and Writing to the Browser Console');
-// alert('Welcome to Java Script');
+
+//JS - Alerts
+alert('Welcome to Java Script');
+alert(1 + 2 + 3);
+
 //Java Script Variables (var, let, const)
 //var - can be re-assigned
 //Global Scope
