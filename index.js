@@ -2,8 +2,8 @@
 console.log('I am Java Script and Writing to the Browser Console');
 
 //JS - Alerts
-alert('Welcome to Java Script');
-alert(1 + 2 + 3);
+// alert('Welcome to Java Script');
+// alert(1 + 2 + 3);
 
 //Java Script Variables (var, let, const)
 //var - can be re-assigned
@@ -67,14 +67,55 @@ array1[4] = 'Adiel';
 
 document.write('Value of array: ' + array1 + '<br/>');
 
-let myArray = new Array();
-myArray[0] = '+';
-myArray[1] = '-';
-myArray[2] = '*';
-myArray[3] = '/';
-let len = myArray.length;
+let testArray = new Array();
+testArray[0] = 'Apple';
+testArray[1] = 'Umbrella';
+testArray[2] = 'Zebra';
+testArray[3] = 'Cat';
+let len = testArray.length;
 
-document.write('Value of array: ' + myArray + '<br/>');
+document.write('Value of array: ' + testArray + '<br/>');
 
 //Arrays - Methods
-document.write('Length of array: ' + myArray.length + '<br/>');
+document.write('Length of array: ' + testArray.length + '<br/>');
+document.write('Sort of the array: ' + testArray.sort() + '<br/>');
+document.write('Sort - Reverse of the array: ' + testArray.reverse() + '<br/>');
+document.write('Pop - Cut the last item: ' + testArray.pop() + '<br/>');
+document.write('Push - A new item: ' + testArray.push('Elephant') + '<br/>');
+document.write('Display Array: ' + testArray + '<br/>');
+
+//splice(start,delteCount)
+//splice(start,indextoadd,'newitem')
+let monthArray = ['Jan', 'Mar', 'Apr', 'Jun'];
+document.write(
+  'Display Spliced Array: ' + monthArray.splice(1, 0, 'Feb') + '<br/>'
+);
+document.write('Display Array: ' + monthArray + '<br/>');
+
+document.write(
+  'Display Spliced Array: ' +
+    monthArray.splice(4, 1, 'May', 'Jul', 'Aug') +
+    '<br/>'
+);
+document.write('Display Spliced Array: ' + monthArray + '<br/>');
+
+//Loops
+//For
+let myMonths = ['Jan', 'Mar', 'Apr', 'Jun'];
+document.write('Length: ' + myMonths.length + '<br/>');
+for (i = 0; i < myMonths.length; i++) {
+  document.write('For Loop - This is month - ' + myMonths[i] + '<br />');
+}
+
+//While Loop
+var i = 0,
+  j = 1,
+  k;
+while (i < 30) {
+  document.write('While Loop ' + i + '<br />');
+  k = i + j;
+  i = j;
+  j = k;
+}
+
+
