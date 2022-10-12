@@ -148,16 +148,18 @@ document.write('<h3>7c. Comparisons</h3>');
 //=== (Equality considers the data type during comparison)
 // alert("123" == 123)
 // alert('123' === 123);
-let comp_result = 34 != 24;
+// let comp_result = 34 != 24;
 // alert(comp_result);
 
 //8. Conditionals
 document.write('<h3>8. Conditionals</h3>');
 // let indpendence_day = prompt("What is the year of India's Independence");
 // if (indpendence_day == 1947) {
-//   alert('You are right!');
+//   // alert('You are right!');
+//   // document.write('You are right!');
 // } else {
-//   alert('Sorry. You are not right!');
+//   // alert('Sorry. You are not right!');
+//   // document.write('You are not right!');
 // }
 
 // if (1) {
@@ -195,4 +197,24 @@ let eligible = voterid && age >= 18;
 // alert(eligible);
 
 // ! NOT
-alert(!false);
+// alert(!false);
+
+//10. ?? Null Operator
+// let user;
+// user = 'ABC';
+// alert(user ?? 'Anonymous User');
+
+// let XfirstName = null;
+// let XlastName = null;
+// let XdisplayName = 'Srini';
+
+// alert(XfirstName ?? XlastName ?? XdisplayName);
+
+// let firstName = 'Srinivas';
+// let lastName = 'K';
+// let displayName = 'Srini';
+
+// alert(firstName ?? lastName ?? displayName);
+
+
+
