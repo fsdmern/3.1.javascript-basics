@@ -184,6 +184,7 @@ document.write('<h3>8. Conditionals</h3>');
 
 //9. Logical Operators
 document.write('<h3>9. Logical Operators</h3>');
+document.write('<h3>||, &&, ! operators </h3>');
 // || pipe for OR condition
 // && is for AND condition
 // ! NOT operator
@@ -200,6 +201,7 @@ let eligible = voterid && age >= 18;
 // alert(!false);
 
 //10. ?? Null Operator
+document.write('<h3>?? Null Operator</h3>');
 // let user;
 // user = 'ABC';
 // alert(user ?? 'Anonymous User');
@@ -215,6 +217,3 @@ let eligible = voterid && age >= 18;
 // let displayName = 'Srini';
 
 // alert(firstName ?? lastName ?? displayName);
-
-
-
